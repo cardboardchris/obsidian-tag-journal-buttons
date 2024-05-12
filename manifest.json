@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Allows for the creation of buttons that toggle boolean file properties.",
-	"author": "Obsidian",
+	"author": "Chris Metivier",
 	"authorUrl": "https://github.com/cardboardchris",
 	"isDesktopOnly": false
 }
