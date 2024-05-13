@@ -132,7 +132,7 @@ export default class TagJournalButtonsPlugin extends Plugin {
 
 			//create the button element
 			const button = el.createEl("button", {
-				text: argsObject.name,
+				text: argsObject.label,
 				cls: ["button-inline"],
 			});
 
@@ -141,7 +141,7 @@ export default class TagJournalButtonsPlugin extends Plugin {
 				button.setAttribute("id", argsObject.id);
 			}
 
-			// if the button configincludes the name of a property to toggle
+			// if the button config includes the name of a property to toggle
 			// add a click handler to the button
 			if (propertyName) {
 				button.on("click", "button", async () => {
