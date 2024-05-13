@@ -6,3 +6,26 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+.markdown-source-view .cm-preview-code-block:has(> .tag-toggle-button),
+.markdown-preview-view div:has(> .tag-toggle-button) {
+	display: inline-block;
+}
+
+.markdown-preview-view div:has(> .tag-toggle-button),
+.markdown-source-view div.cm-embed-block:not(.cm-table-widget):has(> .tag-toggle-button) {
+	overflow: hidden;
+}
+
+.markdown-preview-view div:has(> .tag-toggle-button):hover,
+.markdown-source-view div.cm-embed-block:not(.cm-table-widget):has(> .tag-toggle-button):hover {
+	box-shadow: none;
+}
+
+.markdown-source-view div.cm-embed-block:not(.cm-table-widget):has(> .tag-toggle-button):hover > .edit-block-button {
+	display: none;
+}
+
+.tag-toggle-button {
+	cursor: pointer;
+	margin: 5px;
+}

@@ -133,7 +133,7 @@ export default class TagJournalButtonsPlugin extends Plugin {
 			//create the button element
 			const button = el.createEl("button", {
 				text: argsObject.label,
-				cls: ["button-inline"],
+				cls: ["tag-toggle-button"],
 			});
 
 			// if the button codeblock includes an id value, add it as the button's id
