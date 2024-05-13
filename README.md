@@ -27,9 +27,3 @@ This example codeblock will create a button with id="my-button" and the text "my
 Clicking the button will toggle the property "my-boolean-file-property" if it exists and is boolean.
 
 If clicking the button caused the property to become true, the button will gain a class that applies styles to make it appear active. If clicking the button caused the property to become false, the button will lose that class and the corresponding styles.
-
-## Changelog
-
-### v1.0.0 - 2024-08-12
-
-Initial release.
